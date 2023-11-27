@@ -56,17 +56,17 @@ import (
 	//                          vvvvvvvvvvvvvv                          //
 	//                               vvvv                               //
 
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"            // ahsai tts
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aifalse"          // 服务器监控
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"            // 百度一下
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chouxianghua"     // 说抽象话
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chrev"            // 英文字符翻转
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/dailynews"        // 今日早报
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/font"             // 渲染任意文字到图片
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/diana"            // 嘉心糖发病
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"          // 运势
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/score"            // 分数
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/setutime"         // 来份涩图
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"        // ahsai tts
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aifalse"      // 服务器监控
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"        // 百度一下
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chouxianghua" // 说抽象话
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chrev"        // 英文字符翻转
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/dailynews"    // 今日早报
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/diana"        // 嘉心糖发病
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/font"         // 渲染任意文字到图片
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"      // 运势
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/score"        // 分数
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/setutime"     // 来份涩图
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"           // 鬼东西
 
 	//                               ^^^^                               //
@@ -167,7 +167,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	 sus = append(sus, 2254919332)
+	sus = append(sus, 2254919332)
 	// sus = append(sus, 87654321)
 
 	// 启用 webui
